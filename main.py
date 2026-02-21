@@ -66,8 +66,9 @@ radio_strong = Radiobutton(root , text = "Strong" , variable = var , value = 3)
 radio_strong.grid(row = 1 , column = 4 , sticky = "E")
 combo = Combobox(root , textvariable = var1)
 
-combo['values'] = (8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,"Lenght")
+combo['values'] = (8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,"Length")
 combo.current(0)
 combo.bind('<<ComboboxSelected>>')
 combo.grid(column = 1 , row = 1)
 root.mainloop()
+
